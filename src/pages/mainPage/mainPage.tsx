@@ -18,6 +18,7 @@ export const MainPage = () => {
             setPokes(data.results)
             const allCount = Math.ceil(data.count / limit)
             console.log(allCount)
+            console.log(3120931)
         })
     }, [])
 
